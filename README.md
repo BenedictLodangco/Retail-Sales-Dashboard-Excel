@@ -1,66 +1,41 @@
-# 🛍️ Retail Sales Dashboard (Excel)
+# Retail Sales & Profitability Dashboard  
 
-## 📌 Executive Summary  
-This project presents an **interactive Retail Sales Dashboard** built entirely in Excel.  
-Using **Power Query** for data cleaning, **Pivot Tables & Pivot Charts** for visualization, and **DAX measures in Power Pivot** for advanced calculations, the dashboard provides actionable insights into sales performance, profit drivers, discount impact, and customer behavior.  
+## Executive Summary  
+This project presents a professional Excel-based dashboard that analyzes retail sales and profitability across multiple dimensions. Using Power Query for cleaning, Pivot Tables and Power Pivot (DAX) for modeling, and dynamic Excel visuals, the dashboard enables business stakeholders to quickly monitor performance, identify trends, and uncover actionable insights.  
 
----
+## Business Problem  
+Retail businesses often struggle to balance sales growth with profitability. Discounts, regional performance differences, and product mix can create gaps between revenue and profit. The objective of this project was to build an interactive dashboard that highlights sales trends, profit margins, and regional differences to guide better decision-making.  
 
-## 🎯 Business Problem  
-The retail company needed a dynamic reporting tool to:  
-- Track **sales, profit, and margins** over time.  
-- Understand the impact of **discounts on profitability**.  
-- Identify top-performing **products, regions, and customer segments**.  
-- Provide decision-makers with an **interactive dashboard** instead of static reports.  
+## Methodology  
+- **Data Cleaning & Preparation**: Power Query used to clean and transform raw sales data.  
+- **Data Modeling**: Relationships and calculated measures created using Power Pivot and DAX.  
+- **Exploration**: Performed analysis across categories, regions, discount bins, and time trends.  
+- **Dashboard Design**: Interactive Excel dashboard with slicers, KPIs, and visualizations for storytelling.  
 
----
+## Skills Demonstrated  
+- Data cleaning with **Power Query**  
+- Data modeling with **Power Pivot & DAX**  
+- Pivot Tables and Pivot Charts  
+- Dashboard design and storytelling in Excel  
+- Business analysis and insight generation  
 
-## 🔍 Methodology  
-1. **Data Cleaning (Power Query)**  
-   - Removed duplicates, handled missing values, standardized formats.  
-   - Created a clean model ready for analysis.  
+## Results & Business Recommendations  
 
-2. **Data Modeling (Power Pivot)**  
-   - Built relationships between fact and dimension tables.  
-   - Created **DAX measures** such as Profit Margin %, % of Sales, and YoY Growth.  
+### Key Insights  
+1. **Technology leads in sales performance**  
+   - Technology consistently outperforms Furniture and Office Supplies.  
+   - Recommendation: Focus on Technology product line promotions and inventory optimization.  
 
-3. **Exploratory Data Analysis (Excel Pivot Tables)**  
-   - Sales & profit by **region, category, and segment**.  
-   - Impact of **discount bins** on sales and margins.  
-   - **Product mix analysis** to see contribution to total revenue.  
+2. **High discounts reduce profitability**  
+   - Sales volume is high with **0–10% discounts**, but profits sharply decline as discounts increase.  
+   - Recommendation: Limit excessive discounting and design smarter discount strategies.  
 
-4. **Dashboard Design (Excel Pivot Charts + Slicers)**  
-   - Interactive filters (slicers for date, region, category).  
-   - Visuals: Trend lines, product mix charts, discount vs profit visuals.  
-   - KPI cards for key business metrics.  
+3. **Regional sales are uneven**  
+   - The **West and East regions** generate the highest sales and profits, while Central and South underperform.  
+   - Recommendation: Prioritize resources and marketing campaigns in high-performing regions, while reviewing strategies for weaker ones.  
 
----
-
-## 🛠️ Skills Demonstrated  
-- Data Cleaning & Transformation (**Power Query**)  
-- Data Modeling & DAX (**Power Pivot**)  
-- Pivot Tables & Pivot Charts  
-- KPI Tracking & Dashboard Design  
-- Business Analysis & Data Storytelling  
-
----
-
-## 📊 Results & Business Recommendations  
-**Key Insights**  
-1. **Discounts reduce profitability** — while discounts drive sales volume, margins suffer at higher discount levels.  
-2. **Top categories contribute the majority of sales** — focusing on high-performing categories yields the best ROI.  
-3. **Regional performance varies** — some regions have strong revenue but weak profitability, requiring tailored strategies.  
-
-**Recommendations**  
-- Limit broad discounting; use **targeted promotions** to balance sales and profitability.  
-- Prioritize **best-selling products and customer segments** for marketing and inventory allocation.  
-- Develop **region-specific strategies** to improve low-performing areas.  
-- Continuously track **Profit Margin % trend** to safeguard long-term business health.  
-
----
-
-## 🚀 Next Steps  
-- Automate data refresh with Power Query for live updates.  
-- Add **forecasting models** (e.g., sales projections, seasonality).  
-- Expand into **Power BI** for enterprise-grade dashboards.  
-- Deploy to **SharePoint/Teams** for organization-wide accessibility.  
+## Next Steps  
+- Add a **Profit Margin % trend line** to monitor profitability shifts over time.  
+- Introduce additional slicers (e.g., region, category, segment) for deeper interactivity.  
+- Expand analysis to include **Return Rate % by category or region** to reduce losses.  
+- Automate monthly data refresh through Power Query for scalability.  
